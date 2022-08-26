@@ -103,7 +103,7 @@ Productos(productList);
 */
 
 
-function iniciarJuego() {       
+function Productos() {       
 
     productList.forEach((producto1) => {
         opcionDeProducto =  `<div class="product-card">
@@ -114,7 +114,7 @@ function iniciarJuego() {
             <p>${producto1.name}</p>
           </div>
           <figure>
-            <img src="./icons/bt_add_to_cart.svg" alt="">
+            <img id="imagen" src="./icons/bt_add_to_cart.svg" alt="">
           </figure>
         </div>
       </div>`
@@ -126,5 +126,5 @@ function iniciarJuego() {
     
 }
 
-    iniciarJuego(productList)
+Productos(productList)
 
